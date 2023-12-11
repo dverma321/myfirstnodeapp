@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    width: 100%;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.services img {
+    height: 100%;
+    width: 100%;
+}
+
+#comment-container {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: grey;
+}
+
+#user_hardcore{
+    color: green;
+}
+
+.fixed-height-comment {
+    height: 100px; /* Set your desired fixed height */
+    overflow: hidden;
+  }
+
+  /* navbar  */
+
+  .navbar{
+    background-color: red;
+  }
+  
+
+
+  @media (max-width: 576px) {
+
+    
+.fixed-height-comment {
+    height: 50px; /* Set your desired fixed height */
+    overflow: hidden;
+  }
+
+    
+  }
+  

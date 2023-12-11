@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adobe Photoshop App - Product Detail</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="detailpageCss.css">
+</head>
+<body>
+    <div class="product-container">
+        <h1>Adobe Photoshop App</h1>
+        <img class="product-image" src="file:///C:/Users/Divanshu/Downloads/flowe1.jpg" alt="Adobe Photoshop App">
+        <div class="product-description">
+            <p>
+                <ul>
+                    <li>Powerful image editing</li>
+                    <li>Used by pros worldwide</li>
+                    <li>Enhance your photos</li>
+                    <li>Wide range of tools</li>
+                    <li>Professional designs</li>
+                    <li>Price: $99.99</li>
+                    <li>Availability: In Stock</li>
+                </ul>
+
+        <div class="payment">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="676LZZJ332M2Q" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+          </form>
+        </div>
+
+            </p>
+
+        </div>
+
+        <h2>Screenshots:</h2>
+        <img class="screenshot" src="file:///C:/Users/Divanshu/Downloads/flowe1.jpg" alt="Screenshot 1">
+        <img class="screenshot" src="file:///C:/Users/Divanshu/Downloads/flowe1.jpg" alt="Screenshot 2">
+        <img class="screenshot" src="file:///C:/Users/Divanshu/Downloads/flowe1.jpg" alt="Screenshot 3">
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#buyButtonFixed").click(function() {
+                alert("You have successfully purchased Adobe Photoshop App!");
+            });
+        });
+    </script>
+</body>
+</html>
