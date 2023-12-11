@@ -126,6 +126,14 @@ app.post("/registration", async (req, res) => {
 })
 
 
-app.listen(port, () => {
-    console.log(`Server is running at port no ${port}`);
-})
+// app.listen(port, () => {
+//     console.log(`Server is running at port no ${port}`);
+// })
+
+app.listen(port, (error) => {
+    if (error) {
+        console.error("Error starting the server:", error);
+    } else {
+        console.log(`Server is running at port no ${port}`);
+    }
+});
